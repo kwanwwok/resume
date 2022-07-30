@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 김진욱
+name: 김관욱
 title: 사람과 함께할 때 재미와 행복을 느끼는 개발자 김진욱 입니다.
-email: kimjin0132@naver.com
+email: kshome55@naver.com
 # email_title: Email (Email title override)
-phone: 010-3084-3045
+phone: 010-9174-2144
 # phone_title: Phone (Phone title override)
-website: https://github.com/KimJinoook
+website: https://github.com/kwanwwok
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
