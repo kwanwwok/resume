@@ -1,0 +1,218 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 김진욱
+title: 사람과 함께할 때 재미와 행복을 느끼는 개발자 김진욱 입니다.
+email: kimjin0132@naver.com
+# email_title: Email (Email title override)
+phone: 010-3084-3045
+# phone_title: Phone (Phone title override)
+website: https://github.com/KimJinoook
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: 
+github_username:  KimJinoook
+# stackoverflow_username: 
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username: 
+# linkedin_username: 
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하며 성적 최우수상을 수상하였습니다. 두번의 프로젝트를 진행하며 <mark>팀장</mark>의 역할을 맡아
+  팀원들의 기술역량을 최대로 발휘할 수 있도록 업무분담, 효율적인 진행 계획을 고민했던 경험이 있습니다.<br/><br/>
+  문제해결을 위해 고민하는 것을 좋아합니다. 원하는 결과를 도출하기 위해 로직처리를 고민하는 것에서 퍼즐을 푸는 것과 같은 재미를 느낍니다.
+  이전에 겪었던 오류와 해결방법을 기록으로 남겨, 해당 경험을 토대로 어제보다 발전한 개발자가 되도록 노력하고 있습니다.<br/><br/>
+  새로운 기술에 도전하는 것을 좋아합니다. Three.js를 이용하여 사용자와 교감할 수 있는 웹사이트를 만든 경험이 있습니다. 능동적이고 적극적인 자세로
+  새로운 것을 배우며 발전을 위해 뛰어듭니다. 이러한 점을 바탕으로 변화하는 환경에 빠르게 적응하고 배우는 개발자가 되겠습니다.
+  
+
+content:
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Java, MyBatis
+          * Spring Boot, Spring MVC, Spring Security
+          * Maven
+      - layout: left
+        title: Database
+        description: | # this will include new lines to allow paragraphs
+          * OracleDB
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * JavaScript, jQuery
+          * Bootstrap      
+          
+          
+          
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: MetaUs
+        link: https://github.com/KimJinoook/metaus
+        link_text: github.com/KimJinoook/metaus
+        sub_title: 팀장
+        caption: 2022.05.30 ~ 2022.07.18
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           소상공인의 메타버스 진출을 돕기 위한 크리에이터 - 소상공인 연결 플랫폼
+        description: | # this will include new lines to allow paragraphs
+          * java security, spring security 활용 비밀번호 암호화
+          * Three.js와 ZipLoader 이용, 압축파일 해제 없이 3D모델 로딩
+          * 회원 관리 간 경고 누적수에 따른 접속 차단 기능 구현
+          * Chart.js와 Sheet.js 활용 데이터 관리
+          
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 이젠 먹으러 갑니다
+        link: https://github.com/KimJinoook/EZEN_SEMI_2
+        link_text: github.com/KimJinoook/EZEN_SEMI_2
+        sub_title: 팀장
+        caption: 2022.05.09 ~ 2022.05.27
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           코로나로 위축된 외식산업 활성화를 위한 맛집 리스트 사이트
+        description: | # this will include new lines to allow paragraphs
+          * 웹소켓 이용 접속자 채팅 기능 구현
+          * 맛집 등록 시 주소를 위도경도 자동 변환, 카카오 지도 api 마커 등록
+          * 좋아요, 평점, 리뷰 기능 구현
+          
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: POS & mobile order
+        link: https://github.com/KimJinoook/semiProject_POSandMobileOrder
+        link_text: github.com/KimJinoook/pos
+        sub_title: 개인프로젝트
+        caption: 2022.04.07 ~ 2022.04.26
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           자바 숙달 및 소켓 이해를 위한 개인 프로젝트
+        description: | # this will include new lines to allow paragraphs
+          * 계산기 기능 및 시재관리, 결제 수단별 매출 관리
+          * 모바일오더 이용 간 매장별 오픈여부 확인
+          * 매장 선택 주문, 소켓 이용 주문 전달
+          
+          
+          
+  #- title: Experience
+  #  layout: list
+  #  content:
+  #    - layout: right
+  #      title: Company name
+  #      sub_title: Job title
+  #      caption: Date Range (eg. November 2016 - present)
+  #      link: Link to company (optional)
+  #      quote: >
+  #        Short description of the company (optional)
+  #      description: | # this will include new lines to allow paragraphs
+  #        Description of role
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: 스마트웹&콘텐츠개발-자바(JAVA) 웹 개발자(백엔드)
+        sub_title: 이젠아카데미
+        caption: 2022.02. ~ 2022.07.
+        quote: >
+          성적 최우수상 수상
+        description: | # this will include new lines to allow paragraphs
+          개발자 환경 구축, 개발 환경 운영 지원, 프로그래밍 언어 활용, 화면 구현, 프로그래밍 언어 응용, 애플리케이션 테스트 수행, 애플리케이션 배포, 응용SW 기초 기술 활용, 데이터 입출력 구현, 통합 구현, 인터페이스 구현, 서버프로그램 구현, 애플리케이션 설계, 화면 설계, 요구사항 확인, 데이터베이스 구현, SQL활용, SQL작성, UI 구현
+  
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #    Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
