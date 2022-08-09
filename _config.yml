@@ -53,7 +53,7 @@ github_username:  kwanwwok
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하였습니다. 두번의 프로젝트를 진행하며 <mark>팀장</mark>의 역할을 맡아
+  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하였습니다. 두번의 프로젝트를 진행하며 팀원으로
   팀원들의 기술역량을 최대로 발휘할 수 있도록 업무분담, 효율적인 진행 계획을 고민했던 경험이 있습니다.<br/><br/>
   문제해결을 위해 고민하는 것을 좋아합니다. 원하는 결과를 도출하기 위해 로직처리를 고민하는 것에서 퍼즐을 푸는 것과 같은 재미를 느낍니다.
   이전에 겪었던 오류와 해결방법을 기록으로 남겨, 해당 경험을 토대로 어제보다 발전한 개발자가 되도록 노력하고 있습니다.<br/><br/>
@@ -90,9 +90,9 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: MetaUs
-        link: https://github.com/KimJinoook/metaus
-        link_text: github.com/KimJinoook/metaus
-        sub_title: 팀장
+        link: https://github.com/kwanwwok/finalproject
+        link_text: github.com/kwanwwok/finalproject
+        sub_title: 팀원
         caption: 2022.05.30 ~ 2022.07.18
         #additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -102,60 +102,13 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-           소상공인의 메타버스 진출을 돕기 위한 크리에이터 - 소상공인 연결 플랫폼
+           항공권 예매 및 취소를 가능하게 구현하여 만든 
         description: | # this will include new lines to allow paragraphs
-          * java security, spring security 활용 비밀번호 암호화
-          * Three.js와 ZipLoader 이용, 압축파일 해제 없이 3D모델 로딩
-          * 회원 관리 간 경고 누적수에 따른 접속 차단 기능 구현
-          * Chart.js와 Sheet.js 활용 데이터 관리
-          
-          
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: 이젠 먹으러 갑니다
-        link: https://github.com/KimJinoook/EZEN_SEMI_2
-        link_text: github.com/KimJinoook/EZEN_SEMI_2
-        sub_title: 팀장
-        caption: 2022.05.09 ~ 2022.05.27
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-           코로나로 위축된 외식산업 활성화를 위한 맛집 리스트 사이트
-        description: | # this will include new lines to allow paragraphs
-          * 웹소켓 이용 접속자 채팅 기능 구현
-          * 맛집 등록 시 주소를 위도경도 자동 변환, 카카오 지도 api 마커 등록
-          * 좋아요, 평점, 리뷰 기능 구현
-          
-          
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: POS & mobile order
-        link: https://github.com/KimJinoook/semiProject_POSandMobileOrder
-        link_text: github.com/KimJinoook/pos
-        sub_title: 개인프로젝트
-        caption: 2022.04.07 ~ 2022.04.26
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-           자바 숙달 및 소켓 이해를 위한 개인 프로젝트
-        description: | # this will include new lines to allow paragraphs
-          * 계산기 기능 및 시재관리, 결제 수단별 매출 관리
-          * 모바일오더 이용 간 매장별 오픈여부 확인
-          * 매장 선택 주문, 소켓 이용 주문 전달
-          
-          
+          * 카카오톡 로그인 API를 사용하여 회원 정보를 DB에 저장 하여 로그인 및 세션에 저장
+          * 관리자 회원가입 및 로그인 구현 및 로그인 성공시 세션에 저장
+          * 관리자 페이지 일반회원, 관리자 목록 검색 및 페이징 기능 구현
+          * POI 라이브러리를 사용하여 일반유저 정보 Excel 다운로드 기능 구현
+          * 관리자 마이페이지 아이디 및 이름 조회, 비밀번호 변경 기능 구현
           
   #- title: Experience
   #  layout: list
@@ -177,8 +130,7 @@ content:
         title: 스마트웹&콘텐츠개발-자바(JAVA) 웹 개발자(백엔드)
         sub_title: 이젠아카데미
         caption: 2022.02. ~ 2022.07.
-        quote: >
-          성적 최우수상 수상
+   
         description: | # this will include new lines to allow paragraphs
           개발자 환경 구축, 개발 환경 운영 지원, 프로그래밍 언어 활용, 화면 구현, 프로그래밍 언어 응용, 애플리케이션 테스트 수행, 애플리케이션 배포, 응용SW 기초 기술 활용, 데이터 입출력 구현, 통합 구현, 인터페이스 구현, 서버프로그램 구현, 애플리케이션 설계, 화면 설계, 요구사항 확인, 데이터베이스 구현, SQL활용, SQL작성, UI 구현
   
